@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-function todo()
+function Todo()
 {
   let [arr,setArr]=useState([]);
   let[text,setText]=useState('');
