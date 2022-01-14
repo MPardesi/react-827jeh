@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 // import SampleComponent from './SampleComponent';
-import todo from "./todo";
+import Todo from "./Todo";
 
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
     </div>
     {/* <SampleComponent bgColor="red"/>
     <SampleComponent bgColor="green"/> */}
+    <Todo />
     </>
   );
 }
