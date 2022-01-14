@@ -22,7 +22,7 @@ function Todo()
       <button onClick={add}>Add</button>
       <div>
         Todos:
-        {arr.map((ele)=>(<p>{ele}</p>))};
+        {arr.map((ele)=>(<p>{ele}</p>))}
       </div>
     </div>
   );
